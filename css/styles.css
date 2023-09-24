@@ -556,12 +556,11 @@ background-color: #404bbf;
  }
      .icon-form {
         fill: #FFFFFF;
+        margin-left: 16px;
      }
 
 .form-subscribe {
     display: flex;
-}
-.email-input {
     gap 24px;
 }
 
@@ -628,7 +627,7 @@ background-color: #404bbf;
         width: 24px;
         height: 24px;
         flex-shrink: 0;
-        border-radius: 50px;
+        border-radius: 50%;
         border: none;
         top: 24px;
         right: 24px;
@@ -642,7 +641,7 @@ background-color: #404bbf;
         padding: 0;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        background-color: #404bbf;
+        background-color: #e7e9fc;
     }
         .close-button:hover,
         .close-button:focus {
